@@ -1,0 +1,31 @@
+.notification-item {
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.notification-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.notification-item.unread {
+    font-weight: bold;
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background */
+}
+
+.load-more-btn {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.load-more-btn button {
+    text-decoration: none;
+}
+
+.load-more-btn button:hover {
+    text-decoration: underline;
+}
+
+.notifications {
+    max-height: 500px;
+    overflow-y: auto;
+}
